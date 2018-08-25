@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.db import models
+from mongoengine import *
+from GET_A_JOB_Proyecto_1.settings import BDNAME
 # Create your models here.
+
+connect(BDNAME)
 
 
 class Genero(models.Model):

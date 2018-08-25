@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5f79eb-92d4-449d-8b9e-4fe0a76db72e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/APPS/Login_SignUp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPS/Login_SignUp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPS/Login_SignUp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPS/Login_SignUp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APPS/Login_SignUp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPS/Login_SignUp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,32 +17,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APPS/Login_SignUp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="245">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#754#1249#0" />
-                <element signature="e#1288#1483#0" />
-                <element signature="e#1521#1667#0" />
-                <element signature="e#1881#2407#0" />
+                <element signature="e#24#63#0" expanded="true" />
+                <element signature="e#154#341#0" />
+                <element signature="e#380#875#0" />
+                <element signature="e#914#1109#0" />
+                <element signature="e#1147#1293#0" />
+                <element signature="e#1332#1858#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/APPS/Login_SignUp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#0#323#1" />
-                <element signature="e#481#543#0" />
-                <element signature="e#896#1109#0" />
-                <element signature="e#1124#1523#0" />
-                <element signature="e#1581#2052#0" />
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,13 +61,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py" />
+        <option value="$PROJECT_DIR$/APPS/Login_SignUp/admin.py" />
         <option value="$PROJECT_DIR$/APPS/Login_SignUp/models.py" />
+        <option value="$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py" />
+        <option value="$PROJECT_DIR$/APPS/Login_SignUp/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -92,11 +96,6 @@
               <item name="GET_A_JOB_Proyecto_1" type="462c0819:PsiDirectoryNode" />
               <item name="APPS" type="462c0819:PsiDirectoryNode" />
               <item name="Login_SignUp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GET_A_JOB_Proyecto_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GET_A_JOB_Proyecto_1" type="462c0819:PsiDirectoryNode" />
-              <item name="GET_A_JOB_Proyecto_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,19 +138,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18208517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14421669" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info id="DB Browser" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50073206" side_tool="true" weight="0.35023773" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3296355" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49926794" visible="true" weight="0.27170417" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49926794" visible="true" weight="0.33597463" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -166,6 +165,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Python27/Lib/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -174,29 +178,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/db/backends/base/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GET_A_JOB_Proyecto_1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
           <folding>
             <element signature="e#0#323#1" />
+            <element signature="e#325#790#1" />
             <element signature="e#481#543#0" />
-            <element signature="e#896#1109#0" />
-            <element signature="e#1124#1523#0" />
-            <element signature="e#1581#2052#0" />
+            <element signature="e#896#1110#0" />
+            <element signature="e#1125#1524#0" />
+            <element signature="e#1582#2053#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPS/Login_SignUp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/db/backends/dummy/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1097">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APPS/Login_SignUp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="245">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#754#1249#0" />
-            <element signature="e#1288#1483#0" />
-            <element signature="e#1521#1667#0" />
-            <element signature="e#1881#2407#0" />
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#154#341#0" />
+            <element signature="e#380#875#0" />
+            <element signature="e#914#1109#0" />
+            <element signature="e#1147#1293#0" />
+            <element signature="e#1332#1858#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APPS/Login_SignUp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

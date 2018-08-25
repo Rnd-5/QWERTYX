@@ -10,6 +10,28 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
+"""
+BDNAME= 'BD_Get_a_Job'
+
+SESSION_ENGINE = 'mongoengine.django.sessions'
+
+_MONGODB_USER = 'Rond'
+_MONGODB_PASSWD = 'R0nd1998Mongo1005'
+_MONGODB_HOST = 27017
+_MONGODB_NAME = 'BD_Get_a_Job'
+_MONGODB_DATABASE_HOST = \
+    'mongodb://%s:%s@%s/%s' \
+    % (_MONGODB_USER, _MONGODB_PASSWD, _MONGODB_HOST, _MONGODB_NAME)
+
+mongoengine.connect(_MONGODB_NAME, host=_MONGODB_DATABASE_HOST)
+
+AUTHENTICATION_BACKENDS = (
+    'mongoengine.django.auth.MongoEngineBackend',
+)
+"""
+
+BDNAME= 'BD_Get_a_Job'
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -37,6 +59,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'APPS.Login_SignUp',
 ]
 
 MIDDLEWARE = [
