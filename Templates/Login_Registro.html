@@ -38,7 +38,8 @@
                                 <div class="form loginBox">
                                     <center><img src="{% static 'IMG/Logo.png' %}" id="Logo" alt="Get a Job" /></center>
 
-                                    <form method="get" action="/" accept-charset="UTF-8">
+                                    <form method="post" action="/" accept-charset="UTF-8">
+                                        <!--{{form_Empl.as_p}}-->{% csrf_token %}
                                         <input id="email" class="form-control" type="text" placeholder="Email" name="username" required="required">
                                         <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" required="required">
                                         <input class="btn btn-default btn-login" type="submit"  value="Iniciar sesion" > <!--onclick=" location='{% static 'C_Principal/PagP.html' %}'">
@@ -84,7 +85,6 @@
                                     <h2 id="tituloRegE">Registro de empleadores</h2>
 
                                     <div class="form-group">
-
                                         {{form_Empl.as_p}}
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
@@ -109,6 +109,9 @@
             </div>
         </div>
     </div>
+    {% extends 'Templates/home.html' %}
+    {% block content %}
     <footer id="piePagina"><p align="center">Desarrollado por [ 2016-0918 / 2016-0988 ] ©2018</p></footer>
+    {% endblock %}
 </body>
 </html>

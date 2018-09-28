@@ -7,7 +7,6 @@ class SolicitanteForm(forms.ModelForm):
     class Meta:
         model = Solicitante
         fields = ['Nombre', 'Apellido', 'Sexo', 'Fecha_Nacimiento', 'Cedula', 'Email', 'Clave', 'Clave2', 'Estado']
-        labels = {}
         """labels = {
                         'Cedula': 'Cédula',
                         'Nombre': 'Nombre',
@@ -202,3 +201,8 @@ class EmpleadoresForm(forms.ModelForm):
             })
 
         }
+
+
+class LoginForm(forms.Form):
+    username = forms.CharField()
+    password = forms.CharField(widget=forms.PasswordInput())

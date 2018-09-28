@@ -17,9 +17,11 @@ from django.conf.urls import url
 from django.contrib import admin
 from APPS.Login_SignUp import views
 from APPS.Login_SignUp.views import *
+from django.contrib.auth.decorators import login_required
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.home, name='home'),
+    url(r'^$', login_required(home), name='home'),
     url(r'^Log', Log, name='Log')
 ]
