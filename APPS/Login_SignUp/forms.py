@@ -56,7 +56,7 @@ class SolicitanteForm(forms.ModelForm):
 
             'Cedula': forms.NumberInput(attrs={
                 'class': "form-control",
-                'type': "text",
+                'type': "number",
                 'name': "",
                 'value': "",
                 'required': "required",
@@ -204,5 +204,6 @@ class EmpleadoresForm(forms.ModelForm):
 
 
 class LoginForm(forms.Form):
-    username = forms.CharField()
-    password = forms.CharField(widget=forms.PasswordInput())
+    class Meta:
+        correo = forms.CharField()
+        clave = forms.CharField(widget=forms.PasswordInput())

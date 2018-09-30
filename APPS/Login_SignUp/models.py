@@ -59,3 +59,6 @@ class Empleadores(models.Model):
     def __str__(self):
         return self.Nombre + " " + str(self.FormaJurd)
 
+class Login(models.Model):
+    Correo = models.EmailField(max_length=50)
+    Clave = models.CharField(max_length=75)

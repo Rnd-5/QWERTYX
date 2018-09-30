@@ -17,6 +17,7 @@ from APPS.Login_SignUp.forms import SolicitanteForm, EmpleadoresForm
 
 def Log(request):
     if request.method == 'POST':
+        form0
         form1 = SolicitanteForm(request.POST or None)
         form2 = EmpleadoresForm(request.POST or None)
         if form1.is_valid():

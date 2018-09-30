@@ -188,7 +188,7 @@
 /*#########################################*/
 
 
-.login .box .form input[type="text"], .login .box .form input[type="password"], .login .box .form select, .login .box .form input[type="date"], .login .box .form input[type="email"], .login .box .form input[type="text"] {
+.login .box .form input[type="text"], .login .box .form input[type="password"], .login .box .form select, .login .box .form input[type="date"], .login .box .form input[type="email"], .login .box .form input[type="number"] {
     border-radius: 3px;
     border: none;
     font-size: 16px;
