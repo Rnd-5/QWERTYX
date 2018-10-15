@@ -17,9 +17,14 @@ from APPS.Login_SignUp.forms import SolicitanteForm, EmpleadoresForm
 
 def Log(request):
     if request.method == 'POST':
-        form0
+        #form0 = LoginForm(request.POST or None)
         form1 = SolicitanteForm(request.POST or None)
         form2 = EmpleadoresForm(request.POST or None)
+
+        #if form0.is_valid():
+        #    form0.save()
+        #    return redirect('/')
+
         if form1.is_valid():
             #if form1.
             form1.save()
@@ -27,7 +32,10 @@ def Log(request):
         if form2.is_valid():
             form2.save()
             return redirect('Log')
+        ###### AGREGAR UNA CONDICIONAL EN CASO DE QUE LOS FORM NO SEAN VALIDOS
     else:
+        #form0 = LoginForm()
+        #'form_Log': form0,
         form1 = SolicitanteForm()
         form2 = EmpleadoresForm()
     return render(request, 'Login_Registro.html', {'form_Solct': form1, 'form_Empl': form2})

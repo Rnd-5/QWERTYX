@@ -40,10 +40,13 @@
 
                                     <form method="post" action="/" accept-charset="UTF-8">
                                         <!--{{form_Empl.as_p}}-->{% csrf_token %}
+                                        <!--{{form_Log.as_p}}
+                                        <input class="btn btn-default btn-login" type="submit"  value="Iniciar sesion" >
+                                        -->
                                         <input id="email" class="form-control" type="text" placeholder="Email" name="username" required="required">
                                         <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" required="required">
-                                        <input class="btn btn-default btn-login" type="submit"  value="Iniciar sesion" > <!--onclick=" location='{% static 'C_Principal/PagP.html' %}'">
-                                        -->
+                                        <input class="btn btn-default btn-login" type="submit"  value="Iniciar sesion" > <!--onclick=" location='{% static 'C_Principal/PagP.html' %}'"-->
+
                                     </form>
                                 </div>
                             </div>
@@ -61,6 +64,16 @@
                             </div>
                         </div>
                     </div><!--############################################-->
+
+                    <div class="box"> <!--######-Caja de registros-######-->
+                        <div class="content recoverBox" style="display:none;">
+                            <div class="form">
+                                <h2 id="tituloRegistro">Recuperar cuenta :</h2>
+                                <input id="email" class="form-control" type="email" placeholder="Introduzca su Email" name="username" required="required">
+                                <a class="btn btn-primary btn-Recuperar" href="#">Recuperar</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="box">
                         <!--REGISTRO DEL SOLICITANTE-->
@@ -98,12 +111,23 @@
                             <span>Necesitas
                                 <a href="javascript: showRegisterForm();">Crear una cuenta</a>
                             ?</span>
+                            /
+                            <span>
+                                <a href="javascript: showRecoverForm();">He olvidado mi contraseña.</a>
+                            </span>
                         </div>
                         <div class="forgot register-footer" style="display:none">
                             <!--<hr>-->
                             <span>Ya tienes una cuenta?</span>
                             <a href="javascript: showLoginForm();">Iniciar sesion</a>
                         </div>
+                        <!--
+                        <div class="forgot recover-footer" style="display:none">
+                            <!--<hr>->
+                            <span>Volver al Login?</span>
+                            <a href="javascript: showLoginForm0();">Iniciar sesion</a>
+                        </div>
+                        -->
                     </div>
                 </div>
             </div>

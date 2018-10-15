@@ -147,7 +147,7 @@ class EmpleadoresForm(forms.ModelForm):
             }),
 
             'RNC': forms.NumberInput(attrs={
-                'type': "text",
+                'type': "number",
                 'class': "form-control",
                 'id': "RNC",
                 'placeholder': "RNC de la empresa",
@@ -205,5 +205,28 @@ class EmpleadoresForm(forms.ModelForm):
 
 class LoginForm(forms.Form):
     class Meta:
-        correo = forms.CharField()
-        clave = forms.CharField(widget=forms.PasswordInput())
+        model = Login
+        fields = ['Correo', 'Clave']
+        widgets = {
+            'Correo': forms.EmailInput(attrs={
+                'id': "email",
+                'class': "form-control",
+                'type': "email",
+                'placeholder': "Email",
+                'name': "email",
+                'required': "required",
+                'title': "Ingrese el email."
+            }),
+
+            'Clave': forms.PasswordInput(attrs={
+                'id': "password",
+                'class': "form-control",
+                'type': "password",
+                'placeholder': "Contraseña",
+                'name': "password",
+                'title': "Ingrese su password.",
+                'required': "required"
+            }),
+        }
+        #correo = forms.CharField()
+        #clave = forms.CharField(widget=forms.PasswordInput())

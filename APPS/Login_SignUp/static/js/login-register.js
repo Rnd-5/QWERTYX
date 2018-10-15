@@ -1,3 +1,10 @@
+function showRecoverForm(){
+    $('.loginBox').fadeOut('fast',function(){
+        $('.recoverBox').fadeIn('fast');
+        $('.login-footer').fadeOut();
+    });
+    $('.error').removeClass('alert alert-danger').html('');
+}
 
 function showRegisterForm(){
     $('.loginBox').fadeOut('fast',function(){
@@ -11,6 +18,14 @@ function showRegisterForm(){
        
 }
 
+/*function showLoginForm0(){
+    $('#loginModal .recoverBox').fadeOut('fast',function(){
+        $('.loginBox').fadeIn('fast');
+        $('.register-footer').fadeOut('fast',function(){
+            $('.login-footer').fadeIn('fast');
+        });
+    }
+}*/
 function showLoginForm(){
     $('#loginModal .registerBox').fadeOut('fast',function(){
         $('.registroSoliciante').fadeOut('fast'); //Oculta el from. del solicitante
